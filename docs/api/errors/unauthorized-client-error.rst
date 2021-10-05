@@ -6,7 +6,7 @@ The authenticated client is not authorized to use this authorization grant type.
 
 ::
 
-  const UnauthorizedClientError = require('oauth2-server/lib/errors/unauthorized-client-error');
+  const UnauthorizedClientError = require('oauth2-express/lib/errors/unauthorized-client-error');
 
 --------
 

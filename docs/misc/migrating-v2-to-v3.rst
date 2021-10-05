@@ -11,7 +11,7 @@ Middlewares
 The naming of the exposed middlewares has changed to match the OAuth2 _RFC_ more closely. Please refer to the table below:
 
 +-------------------+------------------------------------------------+
-| oauth2-server 2.x | oauth2-server 3.x                              |
+| oauth2-express 2.x | oauth2-express 3.x                              |
 +===================+================================================+
 | authorise         | authenticate                                   |
 +-------------------+------------------------------------------------+
@@ -117,4 +117,4 @@ Model specification
 
 * `validateScope(user, client, scope)` should return a `Boolean`.
 
-The full model specification is [also available](https://oauth2-server.readthedocs.io/en/latest/model/spec.html).
+The full model specification is [also available](https://oauth2-express.readthedocs.io/en/latest/model/spec.html).

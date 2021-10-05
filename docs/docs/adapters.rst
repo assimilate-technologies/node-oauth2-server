@@ -2,7 +2,7 @@
  Adapters
 ==========
 
-The *oauth2-server* module is typically not used directly but through one of the available adapters, converting the interface to a suitable one for the HTTP server framework in use.
+The *oauth2-express* module is typically not used directly but through one of the available adapters, converting the interface to a suitable one for the HTTP server framework in use.
 
 .. framework-agnostic but there are several officially supported adapters available for popular HTTP server frameworks such as Express_ and Koa_.
 
@@ -20,7 +20,7 @@ Writing Adapters
 
 Adapters typically do the following:
 
-- Inherit from :doc:`OAuth2Server </api/oauth2-server>`.
+- Inherit from :doc:`OAuth2Server </api/oauth2-express>`.
 
 - Override :ref:`authenticate() <OAuth2Server#authenticate>`, :ref:`authorize() <OAuth2Server#authorize>` and :ref:`token() <OAuth2Server#token>`.
 
@@ -32,5 +32,5 @@ Adapters typically do the following:
 
   - Copy all fields from the :doc:`Response </api/response>` back to the framework-specific request object and send it.
 
-Adapters should preserve functionality provided by *oauth2-server* but are free to add additional features that make sense for the respective HTTP server framework.
+Adapters should preserve functionality provided by *oauth2-express* but are free to add additional features that make sense for the respective HTTP server framework.
 

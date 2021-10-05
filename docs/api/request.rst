@@ -6,7 +6,7 @@ Represents an incoming HTTP request.
 
 ::
 
-  const Request = require('oauth2-server').Request;
+  const Request = require('oauth2-express').Request;
 
 --------
 

@@ -6,7 +6,7 @@ Client authentication failed (e.g., unknown client, no client authentication inc
 
 ::
 
-  const InvalidClientError = require('oauth2-server/lib/errors/invalid-client-error');
+  const InvalidClientError = require('oauth2-express/lib/errors/invalid-client-error');
 
 --------
 

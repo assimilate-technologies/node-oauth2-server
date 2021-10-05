@@ -6,7 +6,7 @@ The authorization server encountered an unexpected condition that prevented it f
 
 ::
 
-  const ServerError = require('oauth2-server/lib/errors/server-error');
+  const ServerError = require('oauth2-express/lib/errors/server-error');
 
 ``ServerError`` is used to wrap unknown exceptions encountered during request processing.
 
