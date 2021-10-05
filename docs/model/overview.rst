@@ -2,7 +2,7 @@
  Model Overview
 ================
 
-:doc:`/api/oauth2-server` requires a model object through which some aspects of storage, retrieval and custom validation are abstracted.
+:doc:`/api/oauth2-express` requires a model object through which some aspects of storage, retrieval and custom validation are abstracted.
 
 --------
 
@@ -13,7 +13,7 @@ Grant Types
 
 :rfc:`6749` describes a number of grants for a client application to acquire an access token.
 
-The following grant types are supported by *oauth2-server*:
+The following grant types are supported by *oauth2-express*:
 
 --------
 

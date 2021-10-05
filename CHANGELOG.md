@@ -32,7 +32,7 @@ Tag never released on npm
 * Complete re-write, with Promises and callback support
 * Dropped support for node v0.8, v0.10, v0.12
 * Supports Node v4, v6, v7, and v8.  Will continue support for node current and active LTS versions
-* For migration guide, see https://oauth2-server.readthedocs.io/en/latest/misc/migrating-v2-to-v3.html
+* For migration guide, see https://oauth2-express.readthedocs.io/en/latest/misc/migrating-v2-to-v3.html
 
 ### 2.4.1
 

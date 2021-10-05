@@ -6,7 +6,7 @@ The authorization server does not supported obtaining an authorization code usin
 
 ::
 
-  const UnsupportedResponseTypeError = require('oauth2-server/lib/errors/unsupported-response-type-error');
+  const UnsupportedResponseTypeError = require('oauth2-express/lib/errors/unsupported-response-type-error');
 
 --------
 

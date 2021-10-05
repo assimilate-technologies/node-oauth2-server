@@ -7,16 +7,16 @@
 Installation
 ============
 
-oauth2-server_ is available via npm_.
+oauth2-express_ is available via npm_.
 
-.. _oauth2-server: https://npmjs.org/package/oauth2-server
+.. _oauth2-express: https://npmjs.org/package/oauth2-express
 .. _npm: https://npmjs.org
 
 .. code-block:: sh
 
-  $ npm install oauth2-server
+  $ npm install oauth2-express
 
-.. note:: The *oauth2-server* module is framework-agnostic but there are several officially supported adapters available for popular HTTP server frameworks such as Express_ and Koa_. If you're using one of those frameworks it is strongly recommended to use the respective adapter module instead of rolling your own.
+.. note:: The *oauth2-express* module is framework-agnostic but there are several officially supported adapters available for popular HTTP server frameworks such as Express_ and Koa_. If you're using one of those frameworks it is strongly recommended to use the respective adapter module instead of rolling your own.
 
 .. _Express: https://npmjs.org/package/express-oauth-server
 .. _Koa: https://npmjs.org/package/koa-oauth-server
@@ -34,7 +34,7 @@ Features
 - Complete `test suite`_.
 
 .. _Babel: https://babeljs.io
-.. _test suite: https://github.com/oauthjs/node-oauth2-server/tree/master/test
+.. _test suite: https://github.com/oauthjs/node-oauth2-express/tree/master/test
 
 
 .. _quick-start:
@@ -42,11 +42,11 @@ Features
 Quick Start
 ===========
 
-:doc:`/api/oauth2-server`
+:doc:`/api/oauth2-express`
 
 ::
 
-  const OAuth2Server = require('oauth2-server');
+  const OAuth2Server = require('oauth2-express');
 
   const oauth = new OAuth2Server({
     model: require('./model')
@@ -78,7 +78,7 @@ Quick Start
 
 ::
 
-  const AccessDeniedError = require('oauth2-server/lib/errors/access-denied-error');
+  const AccessDeniedError = require('oauth2-express/lib/errors/access-denied-error');
 
   oauth.authorize(request, response)
     .then((code) => {

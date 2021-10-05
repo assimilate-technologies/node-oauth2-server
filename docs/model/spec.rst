@@ -32,7 +32,7 @@ Each model function supports *promises*, *Node-style callbacks*, *ES6 generators
     }
   };
 
-  const OAuth2Server = require('oauth2-server');
+  const OAuth2Server = require('oauth2-express');
   let oauth = new OAuth2Server({model: model});
 
 Code examples on this page use *promises*.
@@ -206,7 +206,7 @@ An ``Object`` representing the access token and associated data.
 | token.user                   | Object | The user associated with the access token.       |
 +------------------------------+--------+--------------------------------------------------+
 
-``token.client`` and ``token.user`` can carry additional properties that will be ignored by *oauth2-server*.
+``token.client`` and ``token.user`` can carry additional properties that will be ignored by *oauth2-express*.
 
 **Remarks:**
 
@@ -280,7 +280,7 @@ An ``Object`` representing the refresh token and associated data.
 | token.user                    | Object | The user associated with the refresh token.        |
 +-------------------------------+--------+----------------------------------------------------+
 
-``token.client`` and ``token.user`` can carry additional properties that will be ignored by *oauth2-server*.
+``token.client`` and ``token.user`` can carry additional properties that will be ignored by *oauth2-express*.
 
 **Remarks:**
 
@@ -356,7 +356,7 @@ An ``Object`` representing the authorization code and associated data.
 | code.user          | Object | The user associated with the authorization code.             |
 +--------------------+--------+--------------------------------------------------------------+
 
-``code.client`` and ``code.user`` can carry additional properties that will be ignored by *oauth2-server*.
+``code.client`` and ``code.user`` can carry additional properties that will be ignored by *oauth2-express*.
 
 **Remarks:**
 
@@ -434,7 +434,7 @@ An ``Object`` representing the client and associated data, or a falsy value if n
 | [client.refreshTokenLifetime] | Number        | Client-specific lifetime of generated refresh tokens in seconds.                     |
 +-------------------------------+---------------+--------------------------------------------------------------------------------------+
 
-The return value (``client``) can carry additional properties that will be ignored by *oauth2-server*.
+The return value (``client``) can carry additional properties that will be ignored by *oauth2-express*.
 
 **Remarks:**
 
@@ -485,7 +485,7 @@ This model function is **required** if the ``password`` grant is used.
 
 **Return value:**
 
-An ``Object`` representing the user, or a falsy value if no such user could be found. The user object is completely transparent to *oauth2-server* and is simply used as input to other model functions.
+An ``Object`` representing the user, or a falsy value if no such user could be found. The user object is completely transparent to *oauth2-express* and is simply used as input to other model functions.
 
 **Remarks:**
 
@@ -525,7 +525,7 @@ This model function is **required** if the ``client_credentials`` grant is used.
 
 **Return value:**
 
-An ``Object`` representing the user, or a falsy value if the client does not have an associated user. The user object is completely transparent to *oauth2-server* and is simply used as input to other model functions.
+An ``Object`` representing the user, or a falsy value if the client does not have an associated user. The user object is completely transparent to *oauth2-express* and is simply used as input to other model functions.
 
 **Remarks:**
 
@@ -606,7 +606,7 @@ An ``Object`` representing the token(s) and associated data.
 | token.user                  | Object | The user associated with the access token.   |
 +-----------------------------+--------+----------------------------------------------+
 
-``token.client`` and ``token.user`` can carry additional properties that will be ignored by *oauth2-server*.
+``token.client`` and ``token.user`` can carry additional properties that will be ignored by *oauth2-express*.
 
 If the ``allowExtendedTokenAttributes`` server option is enabled (see :ref:`OAuth2Server#token() <OAuth2Server#token>`) any additional attributes set on the result are copied to the token response sent to the client.
 
@@ -709,7 +709,7 @@ An ``Object`` representing the authorization code and associated data.
 | code.user              | Object | The user associated with the authorization code.              |
 +------------------------+--------+---------------------------------------------------------------+
 
-``code.client`` and ``code.user`` can carry additional properties that will be ignored by *oauth2-server*.
+``code.client`` and ``code.user`` can carry additional properties that will be ignored by *oauth2-express*.
 
 **Remarks:**
 

@@ -5,7 +5,7 @@
 Noteable error types:
 
 ``OAuthError``
-  :doc:`oauth-error` is the base class for all exceptions thrown/returned by *oauth2-server*.
+  :doc:`oauth-error` is the base class for all exceptions thrown/returned by *oauth2-express*.
 
 ``ServerError``
   :doc:`server-error` is used to wrap unknown exceptions encountered during request processing.

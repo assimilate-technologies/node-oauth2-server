@@ -1,38 +1,11 @@
 {
-  "name": "oauth2-server",
-  "description": "Complete, framework-agnostic, compliant and well tested module for implementing an OAuth2 Server in node.js",
-  "version": "4.0.0-dev.3",
+  "name": "oauth2-express",
+  "description": "Complete, framework-agnostic, compliant and well tested module for implementing an OAuth2 Server in node.js and express",
+  "version": "1.0.0",
   "keywords": [
     "oauth",
-    "oauth2"
-  ],
-  "contributors": [
-    {
-      "name": "Thom Seddon",
-      "email": "thom@seddonmedia.co.uk"
-    },
-    {
-      "name": "Lars F. Karlström",
-      "email": "lars@lfk.io"
-    },
-    {
-      "name": "Rui Marinho",
-      "email": "ruipmarinho@gmail.com"
-    },
-    {
-      "name": "Tiago Ribeiro",
-      "email": "tiago.ribeiro@gmail.com"
-    },
-    {
-      "name": "Michael Salinger",
-      "email": "mjsalinger@gmail.com"
-    },
-    {
-      "name": "Nuno Sousa"
-    },
-    {
-      "name": "Max Truxa"
-    }
+    "oauth2",
+    "express"
   ],
   "main": "index.js",
   "dependencies": {
@@ -54,12 +27,22 @@
     "node": ">=4.0"
   },
   "scripts": {
-    "pretest": "./node_modules/.bin/jshint --config ./.jshintrc lib test",
+    "pretest": "jshint --config ./.jshintrc lib test",
     "test": "NODE_ENV=test ./node_modules/.bin/mocha 'test/**/*_test.js'",
     "test-debug": "NODE_ENV=test ./node_modules/.bin/mocha  --inspect --debug-brk 'test/**/*_test.js'"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/oauthjs/node-oauth2-server.git"
-  }
+    "url": "git+https://github.com/assimilate-technologies/oauth2-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/assimilate-technologies/oauth2-express/issues"
+  },
+  "homepage": "https://github.com/assimilate-technologies/oauth2-express#readme",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": ""
 }

@@ -6,7 +6,7 @@ Represents an outgoing HTTP response.
 
 ::
 
-  const Response = require('oauth2-server').Response;
+  const Response = require('oauth2-express').Response;
 
 --------
 
