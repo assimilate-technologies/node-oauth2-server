@@ -4,7 +4,8 @@
  * Expose server and request/response classes.
  */
 
-exports = module.exports = require('./lib/server');
+exports = module.exports = require('./lib/express-server');
+exports.Server = require('./lib/server');
 exports.Request = require('./lib/request');
 exports.Response = require('./lib/response');
 
