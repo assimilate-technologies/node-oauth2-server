@@ -20,10 +20,6 @@ npm install oauth2-express
 - Fully [RFC 6749](https://tools.ietf.org/html/rfc6749.html) and [RFC 6750](https://tools.ietf.org/html/rfc6750.html) compliant.
 - Implicitly supports any form of storage, e.g. *PostgreSQL*, *MySQL*, *MongoDB*, *Redis*, etc.
 
-## Documentation
-
-[Documentation](https://oauth2-express.readthedocs.io) is hosted on Read the Docs.
-
 [npm-image]: https://img.shields.io/npm/v/oauth2-express.svg
 [npm-url]: https://npmjs.org/package/oauth2-express
 [downloads-image]: https://img.shields.io/npm/dm/oauth2-express.svg
