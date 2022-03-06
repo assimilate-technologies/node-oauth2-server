@@ -1,7 +1,7 @@
 {
   "name": "oauth2-express",
   "description": "Module to implement OAuth2 Server in node.js and express",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "oauth",
     "oauth2",
