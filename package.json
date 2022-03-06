@@ -33,12 +33,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/assimilate-technologies/oauth2-express.git"
+    "url": "git+https://github.com/zilurrane/oauth2-express.git"
   },
   "bugs": {
-    "url": "https://github.com/assimilate-technologies/oauth2-express/issues"
+    "url": "https://github.com/zilurrane/oauth2-express/issues"
   },
-  "homepage": "https://github.com/assimilate-technologies/oauth2-express#readme",
+  "homepage": "https://github.com/zilurrane/oauth2-express#readme",
   "directories": {
     "doc": "docs",
     "lib": "lib",
